@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "build": " vite build",
+    "build": "vue-tsc --noEmit && vite build",
     "serve": "vite preview"
   },
   "dependencies": {
@@ -15,5 +15,5 @@
     "vite": "^2.6.4",
     "vue-tsc": "^0.3.0"
   },
-  "homepage": "https://PengBoUESTC.github.io/Vue3-CI"
+  "homepage": "https://PengBoUESTC.github.io/vue3-ci"
 }
